@@ -1,0 +1,20 @@
+{
+    "name": "cristianaraya/lanco-redirect",
+    "description": "WordPress Plugin to redirect users to correct site based on location",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "Cristian Araya",
+            "email": "cristian0789@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lancor\\": "inc/",
+            "LancorTests\\": "tests/"
+        }
+    },
+    "require": {
+        "geoip/geoip": "~1.16"
+    }
+}
